@@ -1,0 +1,2624 @@
+fileFormatVersion: 2
+guid: 1dfc3fcfb6c963a48a7166d8d28883cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5424593843203184681
+    second: fire_yellow_0
+  - first:
+      213: -4271507180182047876
+    second: fire_yellow_1
+  - first:
+      213: -6799905472952679628
+    second: fire_yellow_2
+  - first:
+      213: -3371942581477404802
+    second: fire_yellow_3
+  - first:
+      213: -6273753499076993573
+    second: fire_yellow_4
+  - first:
+      213: -1593870956627637474
+    second: fire_yellow_5
+  - first:
+      213: -1181164114127908663
+    second: fire_yellow_6
+  - first:
+      213: -1652808911297192527
+    second: fire_yellow_7
+  - first:
+      213: 2739101938783976185
+    second: fire_yellow_8
+  - first:
+      213: -3836926459789170177
+    second: fire_yellow_9
+  - first:
+      213: -5006385547569155652
+    second: fire_yellow_10
+  - first:
+      213: -7367097112643680093
+    second: fire_yellow_11
+  - first:
+      213: 2543089028959799970
+    second: fire_yellow_12
+  - first:
+      213: -677658574991044477
+    second: fire_yellow_13
+  - first:
+      213: -8327807469528672638
+    second: fire_yellow_14
+  - first:
+      213: 9170235163293975732
+    second: fire_yellow_15
+  - first:
+      213: 7435265901760973344
+    second: fire_yellow_16
+  - first:
+      213: 4767399712451841843
+    second: fire_yellow_17
+  - first:
+      213: 5796606606617794589
+    second: fire_yellow_18
+  - first:
+      213: 2744232588602170314
+    second: fire_yellow_19
+  - first:
+      213: -1127966401521743411
+    second: fire_yellow_20
+  - first:
+      213: -6046574108115297015
+    second: fire_yellow_21
+  - first:
+      213: 1975959442272064646
+    second: fire_yellow_22
+  - first:
+      213: -8166918148741740673
+    second: fire_yellow_23
+  - first:
+      213: -6942758749818558206
+    second: fire_yellow_24
+  - first:
+      213: -1176770662890562638
+    second: fire_yellow_25
+  - first:
+      213: 7301738853895107289
+    second: fire_yellow_26
+  - first:
+      213: 2020799496513749043
+    second: fire_yellow_27
+  - first:
+      213: 3076690201596964232
+    second: fire_yellow_28
+  - first:
+      213: -1696922506080818927
+    second: fire_yellow_29
+  - first:
+      213: -7318393651724522787
+    second: fire_yellow_30
+  - first:
+      213: 1572057953174756438
+    second: fire_yellow_31
+  - first:
+      213: -9154219163934869461
+    second: fire_yellow_32
+  - first:
+      213: 1572603824364596956
+    second: fire_yellow_33
+  - first:
+      213: 4788021673985282610
+    second: fire_yellow_34
+  - first:
+      213: 6697586067357717020
+    second: fire_yellow_35
+  - first:
+      213: -8296555046442877634
+    second: fire_yellow_36
+  - first:
+      213: -1463790803889543690
+    second: fire_yellow_37
+  - first:
+      213: -602520020949947362
+    second: fire_yellow_38
+  - first:
+      213: -4648842051025727770
+    second: fire_yellow_39
+  - first:
+      213: -4517982022800266009
+    second: fire_yellow_40
+  - first:
+      213: 2838943375347098355
+    second: fire_yellow_41
+  - first:
+      213: -6666944704325813543
+    second: fire_yellow_42
+  - first:
+      213: -5736544898744735225
+    second: fire_yellow_43
+  - first:
+      213: -4159424438598670022
+    second: fire_yellow_44
+  - first:
+      213: 6453927588740363812
+    second: fire_yellow_45
+  - first:
+      213: 1705375220136015757
+    second: fire_yellow_46
+  - first:
+      213: -33993858147989978
+    second: fire_yellow_47
+  - first:
+      213: -1982601974749496093
+    second: fire_yellow_48
+  - first:
+      213: -3050608350008808728
+    second: fire_yellow_49
+  - first:
+      213: 5952825049372275088
+    second: fire_yellow_50
+  - first:
+      213: 788749878127339767
+    second: fire_yellow_51
+  - first:
+      213: 2794174233784617754
+    second: fire_yellow_52
+  - first:
+      213: -2784713094334818765
+    second: fire_yellow_53
+  - first:
+      213: 5597511935175626559
+    second: fire_yellow_54
+  - first:
+      213: 8441064518274956824
+    second: fire_yellow_55
+  - first:
+      213: -7372929699230779941
+    second: fire_yellow_56
+  - first:
+      213: -5988674943248249287
+    second: fire_yellow_57
+  - first:
+      213: 5091606510666912098
+    second: fire_yellow_58
+  - first:
+      213: -3314155861630007791
+    second: fire_yellow_59
+  - first:
+      213: 201035947136295192
+    second: fire_yellow_60
+  - first:
+      213: -1864667034287989145
+    second: fire_yellow_61
+  - first:
+      213: -6896928509938110008
+    second: fire_yellow_62
+  - first:
+      213: 8200340430674781807
+    second: fire_yellow_63
+  - first:
+      213: 576293384832738604
+    second: fire_yellow_64
+  - first:
+      213: 741241409732474583
+    second: fire_yellow_65
+  - first:
+      213: -219866335196692212
+    second: fire_yellow_66
+  - first:
+      213: 7945750517578824923
+    second: fire_yellow_67
+  - first:
+      213: -6964613109392442405
+    second: fire_yellow_68
+  - first:
+      213: -2503856560307763662
+    second: fire_yellow_69
+  - first:
+      213: -2474681614638774251
+    second: fire_yellow_70
+  - first:
+      213: 8091167021967847953
+    second: fire_yellow_71
+  - first:
+      213: 7441383764000810982
+    second: fire_yellow_72
+  - first:
+      213: 3446132644684936637
+    second: fire_yellow_73
+  - first:
+      213: -6117473079659488492
+    second: fire_yellow_74
+  - first:
+      213: -6944217762640544311
+    second: fire_yellow_75
+  - first:
+      213: -4756007472256758848
+    second: fire_yellow_76
+  - first:
+      213: 6151962227343640164
+    second: fire_yellow_77
+  - first:
+      213: 2851983139918082839
+    second: fire_yellow_78
+  - first:
+      213: 2310615509391749810
+    second: fire_yellow_79
+  - first:
+      213: -2518412114382147744
+    second: fire_yellow_80
+  - first:
+      213: -8493119889625984241
+    second: fire_yellow_81
+  - first:
+      213: -7819204210810043744
+    second: fire_yellow_82
+  - first:
+      213: -3758331804033272143
+    second: fire_yellow_83
+  - first:
+      213: -8246315646400281403
+    second: fire_yellow_84
+  - first:
+      213: 7114582627743112088
+    second: fire_yellow_85
+  - first:
+      213: 2747315951055141098
+    second: fire_yellow_86
+  - first:
+      213: 8907471457083968
+    second: fire_yellow_87
+  - first:
+      213: -4511130349992715896
+    second: fire_yellow_88
+  - first:
+      213: 7497071495621359659
+    second: fire_yellow_89
+  - first:
+      213: 1073259998376657090
+    second: fire_yellow_90
+  - first:
+      213: 3235228328060332267
+    second: fire_yellow_91
+  - first:
+      213: 687908776380659184
+    second: fire_yellow_92
+  - first:
+      213: 7199481337054679623
+    second: fire_yellow_93
+  - first:
+      213: -4759704344604548451
+    second: fire_yellow_94
+  - first:
+      213: 8770238815709617174
+    second: fire_yellow_95
+  - first:
+      213: 5811303199311790876
+    second: fire_yellow_96
+  - first:
+      213: -1545812075324330202
+    second: fire_yellow_97
+  - first:
+      213: 2109518867221156304
+    second: fire_yellow_98
+  - first:
+      213: 7013545551447353534
+    second: fire_yellow_99
+  - first:
+      213: 377031263974742939
+    second: fire_yellow_100
+  - first:
+      213: 7994815737861756087
+    second: fire_yellow_101
+  - first:
+      213: 8805399762706396210
+    second: fire_yellow_102
+  - first:
+      213: -6327839469494627739
+    second: fire_yellow_103
+  - first:
+      213: -2074601592178960947
+    second: fire_yellow_104
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_yellow_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 779
+        width: 28
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d76a1de3a8f7b4b0800000000000000
+      internalID: -5424593843203184681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 778
+        width: 21
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73f7bdd9de88b4c0800000000000000
+      internalID: -4271507180182047876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 768
+        width: 43
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433cb62fff1e1a1a0800000000000000
+      internalID: -6799905472952679628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 771
+        width: 58
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f860466147431d0800000000000000
+      internalID: -3371942581477404802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 775
+        width: 60
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddd62fae662fe8a0800000000000000
+      internalID: -6273753499076993573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 771
+        width: 68
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bc5644fce61e9e0800000000000000
+      internalID: -1593870956627637474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 842
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c097fb0f79ab9fe0800000000000000
+      internalID: -1181164114127908663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 771
+        width: 70
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdd7885d0b0019e0800000000000000
+      internalID: -1652808911297192527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 779
+        width: 9
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa7dc073be330620800000000000000
+      internalID: 2739101938783976185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_9
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 835
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff928f6b6bf70cac0800000000000000
+      internalID: -3836926459789170177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 826
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1bd749edeb58ab0800000000000000
+      internalID: -5006385547569155652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 773
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a841176530d2c990800000000000000
+      internalID: -7367097112643680093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 790
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa875b7ffdda4320800000000000000
+      internalID: 2543089028959799970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 797
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38059aecd197896f0800000000000000
+      internalID: -677658574991044477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 771
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28616e4aa3fad6c80800000000000000
+      internalID: -8327807469528672638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 578
+        width: 74
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b40fe68b48334f70800000000000000
+      internalID: 9170235163293975732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 718
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a8905a1fe5f2760800000000000000
+      internalID: 7435265901760973344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 570
+        width: 77
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fcdfa97c4392240800000000000000
+      internalID: 4767399712451841843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 714
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18d22a3ffea17050800000000000000
+      internalID: 5796606606617794589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 570
+        width: 70
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbdea0fff8751620800000000000000
+      internalID: 2744232588602170314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 571
+        width: 71
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc988b6b888a850f0800000000000000
+      internalID: -1127966401521743411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 571
+        width: 71
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d96b182e0461ca0800000000000000
+      internalID: -6046574108115297015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 571
+        width: 69
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6849437c4a40c6b10800000000000000
+      internalID: 1975959442272064646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 571
+        width: 79
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77ce82c63749ae80800000000000000
+      internalID: -8166918148741740673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 673
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20964db83bd56af90800000000000000
+      internalID: -6942758749818558206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_25
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 658
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb9e4021554bafe0800000000000000
+      internalID: -1176770662890562638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_26
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 649
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2f5152dccf45560800000000000000
+      internalID: 7301738853895107289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 636
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3308df77f625b0c10800000000000000
+      internalID: 2020799496513749043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 638
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dac16ff6992ba20800000000000000
+      internalID: 3076690201596964232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_29
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 631
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119efada8f15378e0800000000000000
+      internalID: -1696922506080818927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 626
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda6c7e8fb7df6a90800000000000000
+      internalID: -7318393651724522787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_31
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 625
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1f49116211d510800000000000000
+      internalID: 1572057953174756438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_32
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 618
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b699eb2ea5f080800000000000000
+      internalID: -9154219163934869461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_33
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 610
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde2ca3a8d203d510800000000000000
+      internalID: 1572603824364596956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_34
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 609
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23293ce2858727240800000000000000
+      internalID: 4788021673985282610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_35
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 610
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12567dfa0b92fc50800000000000000
+      internalID: 6697586067357717020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_36
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3c4d6427bcdc80800000000000000
+      internalID: -8296555046442877634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 386
+        width: 80
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f52ea4f4029fabe0800000000000000
+      internalID: -1463790803889543690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 391
+        width: 72
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca735bb3b63a7f0800000000000000
+      internalID: -602520020949947362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_39
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 481
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee86b309cefb7fb0800000000000000
+      internalID: -4648842051025727770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 389
+        width: 76
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eca36d9947ec41c0800000000000000
+      internalID: -4517982022800266009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_41
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 485
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2230165f3f56720800000000000000
+      internalID: 2838943375347098355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_42
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 386
+        width: 75
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dafc794d114a73a0800000000000000
+      internalID: -6666944704325813543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 386
+        width: 78
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aad30eec2b360b0800000000000000
+      internalID: -5736544898744735225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 386
+        width: 80
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a396f3bb281c646c0800000000000000
+      internalID: -4159424438598670022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_45
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 386
+        width: 82
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42676f492f4f09950800000000000000
+      internalID: 6453927588740363812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_46
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 477
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87f5fc2ab5baa710800000000000000
+      internalID: 1705375220136015757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_47
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 471
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6264b8024ca378ff0800000000000000
+      internalID: -33993858147989978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_48
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 477
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec711c12026c74e0800000000000000
+      internalID: -1982601974749496093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 472
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea62e45edf0aa5d0800000000000000
+      internalID: -3050608350008808728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 463
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091b1edc7deac9250800000000000000
+      internalID: 5952825049372275088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_51
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 461
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8a96ec5d332fa00800000000000000
+      internalID: 788749878127339767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 439
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b084559a6e6c620800000000000000
+      internalID: 2794174233784617754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_53
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 439
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3365bcad136ba59d0800000000000000
+      internalID: -2784713094334818765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_54
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 437
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f072ab27b5ead40800000000000000
+      internalID: 5597511935175626559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_55
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 446
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebee9e47fa42570800000000000000
+      internalID: 8441064518274956824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_56
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 444
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5fb6380871ea990800000000000000
+      internalID: -7372929699230779941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_57
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 444
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec7645ed3f3eca0800000000000000
+      internalID: -5988674943248249287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_58
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 420
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2611e5c152509a640800000000000000
+      internalID: 5091606510666912098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_59
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 418
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116c3419dc0c102d0800000000000000
+      internalID: -3314155861630007791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_60
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 426
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811a428f0293ac200800000000000000
+      internalID: 201035947136295192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_61
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 429
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e12e4363f5f16e0800000000000000
+      internalID: -1864667034287989145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_62
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 418
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ffdbcf003940a0800000000000000
+      internalID: -6896928509938110008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_63
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 411
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e4a7ac267dc170800000000000000
+      internalID: 8200340430674781807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 414
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25ec59b7c76ff700800000000000000
+      internalID: 576293384832738604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 219
+        width: 76
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6f9e7822b694a00800000000000000
+      internalID: 741241409732474583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 220
+        width: 67
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01c888abb0e2fcf0800000000000000
+      internalID: -219866335196692212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 305
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc79225ff9f44e60800000000000000
+      internalID: 7945750517578824923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 225
+        width: 67
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb72a0f649b85f90800000000000000
+      internalID: -6964613109392442405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_69
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 234
+        width: 68
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236035279b3804dd0800000000000000
+      internalID: -2503856560307763662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_70
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 302
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5180443de2a28add0800000000000000
+      internalID: -2474681614638774251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_71
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 234
+        width: 80
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112bfb2a989994070800000000000000
+      internalID: 8091167021967847953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_72
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 242
+        width: 61
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7a0a27b1b154760800000000000000
+      internalID: 7441383764000810982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_73
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 250
+        width: 69
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b257c16f13df20800000000000000
+      internalID: 3446132644684936637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_74
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 297
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b91e355ae5a1ba0800000000000000
+      internalID: -6117473079659488492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_75
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 289
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd3ad6acbe21af90800000000000000
+      internalID: -6944217762640544311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_76
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 298
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb480307644ffdb0800000000000000
+      internalID: -4756007472256758848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_77
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 295
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46640702d09206550800000000000000
+      internalID: 6151962227343640164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 293
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71378382e87449720800000000000000
+      internalID: 2851983139918082839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 287
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2bdc94094f01020800000000000000
+      internalID: 2310615509391749810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_80
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 279
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f263c668dcc0dd0800000000000000
+      internalID: -2518412114382147744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_81
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 285
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03d9087570622a80800000000000000
+      internalID: -8493119889625984241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_82
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 277
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2cd6cb23b9c7390800000000000000
+      internalID: -7819204210810043744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_83
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 275
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b63b800329b7dbc0800000000000000
+      internalID: -3758331804033272143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_84
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 273
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4c0964c933f8d80800000000000000
+      internalID: -8246315646400281403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_85
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 267
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b1bcb84331cb260800000000000000
+      internalID: 7114582627743112088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_86
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 71
+        width: 63
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8f7643d4d602620800000000000000
+      internalID: 2747315951055141098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_87
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 69
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042eb005c45af1000800000000000000
+      internalID: 8907471457083968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 136
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889533109de3561c0800000000000000
+      internalID: -4511130349992715896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_89
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 136
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b738ddc2fa0860800000000000000
+      internalID: 7497071495621359659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_90
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 96
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c080ea384cf4ee00800000000000000
+      internalID: 1073259998376657090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_91
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 136
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8215df507d5ec20800000000000000
+      internalID: 3235228328060332267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_92
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 141
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5fa0e2361fb8900800000000000000
+      internalID: 687908776380659184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_93
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 109
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742d23ea122b9e360800000000000000
+      internalID: 7199481337054679623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_94
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 104
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9266f7dd1222fdb0800000000000000
+      internalID: -4759704344604548451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_95
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 111
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cd6b57cb526b970800000000000000
+      internalID: 8770238815709617174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_96
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 105
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13021d5875e5a050800000000000000
+      internalID: 5811303199311790876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_97
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 98
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fa8c88b1c2c8ae0800000000000000
+      internalID: -1545812075324330202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_98
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 81
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d193b7ab34864d10800000000000000
+      internalID: 2109518867221156304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_99
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 78
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb86a0a058e155160800000000000000
+      internalID: 7013545551447353534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_100
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 75
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b5e6edfeb7b3500800000000000000
+      internalID: 377031263974742939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_101
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 81
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4d3f32e8a43fe60800000000000000
+      internalID: 7994815737861756087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_102
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 76
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2347c616e60133a70800000000000000
+      internalID: 8805399762706396210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_103
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 91
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5629311678ffe28a0800000000000000
+      internalID: -6327839469494627739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_yellow_104
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc596b7f7d88533e0800000000000000
+      internalID: -2074601592178960947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
