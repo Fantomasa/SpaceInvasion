@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &172543773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1481818162450795137, guid: db03efc334ed68642b2016e68e2b8e7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1660202417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &425559511 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d,
@@ -286,6 +292,34 @@ PrefabInstance:
       propertyPath: fireShield
       value: 
       objectReference: {fileID: 1591621390}
+    - target: {fileID: 2745307663177319455, guid: f63224b13450b654a80622cbdf7640bc,
+        type: 3}
+      propertyPath: bonusFirePointBar
+      value: 
+      objectReference: {fileID: 5423962768947928562, guid: f20a9259affa30d49af17097413b27d0,
+        type: 3}
+    - target: {fileID: 2745307663177319455, guid: f63224b13450b654a80622cbdf7640bc,
+        type: 3}
+      propertyPath: bonusFireHootingBar
+      value: 
+      objectReference: {fileID: 4485276547299184748, guid: 53c1634334a1d2440a2cae985c4f6a31,
+        type: 3}
+    - target: {fileID: 2745307663177319455, guid: f63224b13450b654a80622cbdf7640bc,
+        type: 3}
+      propertyPath: Canvas
+      value: 
+      objectReference: {fileID: 172543773}
+    - target: {fileID: 2745307663177319455, guid: f63224b13450b654a80622cbdf7640bc,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 172543773}
+    - target: {fileID: 2745307663177319455, guid: f63224b13450b654a80622cbdf7640bc,
+        type: 3}
+      propertyPath: bonusFireShootingBar
+      value: 
+      objectReference: {fileID: 4485276547299184748, guid: 53c1634334a1d2440a2cae985c4f6a31,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63224b13450b654a80622cbdf7640bc, type: 3}
 --- !u!1 &1591621389 stripped
@@ -326,21 +360,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: firePoints.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: bullet.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: bullets.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
       propertyPath: spaceship
       value: 
       objectReference: {fileID: 1591621389}
+    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
+      propertyPath: fireShield
+      value: 
+      objectReference: {fileID: 1591621390}
     - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
       propertyPath: firePoints.Array.data[0]
       value: 
@@ -354,37 +380,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 835402185}
     - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: bullet.Array.data[0]
-      value: 
-      objectReference: {fileID: 8436961503396329857, guid: 4a072c7453fa94544b199beda6f233d9,
-        type: 3}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: bullet.Array.data[1]
-      value: 
-      objectReference: {fileID: 2184421634339474573, guid: a0339fbe781e4c64f8b6b25e03d2a3e6,
-        type: 3}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: bullets.Array.data[0]
-      value: 
-      objectReference: {fileID: 8436961503396329857, guid: 4a072c7453fa94544b199beda6f233d9,
-        type: 3}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: bullets.Array.data[1]
-      value: 
-      objectReference: {fileID: 2184421634339474573, guid: a0339fbe781e4c64f8b6b25e03d2a3e6,
-        type: 3}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: gameController
-      value: 
-      objectReference: {fileID: 1329324657}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
       propertyPath: bulletController
       value: 
       objectReference: {fileID: 1417469542}
-    - target: {fileID: 96603980, guid: db03efc334ed68642b2016e68e2b8e7d, type: 3}
-      propertyPath: fireShield
-      value: 
-      objectReference: {fileID: 1591621390}
     - target: {fileID: 1481818162450795137, guid: db03efc334ed68642b2016e68e2b8e7d,
         type: 3}
       propertyPath: m_Name
@@ -501,6 +499,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1481818162621091824, guid: db03efc334ed68642b2016e68e2b8e7d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656019700986167738, guid: db03efc334ed68642b2016e68e2b8e7d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656019700986167738, guid: db03efc334ed68642b2016e68e2b8e7d,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

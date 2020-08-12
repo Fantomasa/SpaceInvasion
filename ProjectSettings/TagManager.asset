@@ -12,6 +12,7 @@ TagManager:
   - Asteroid
   - Shield
   - Bonus
+  - BonusBar
   layers:
   - Default
   - TransparentFX
