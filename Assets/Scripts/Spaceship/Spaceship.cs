@@ -11,9 +11,9 @@ public class Spaceship : MonoBehaviour
     private const string BONUS_FIRE_POINT = "BonusFirePointBar";
     private const string BONUS_FIRE_BULLET = "BonusFireShootingtBar";
 
-    private const float X = -1205f;
-    private const float Y = -240f;
-    private const float Y_DIFF = -85f;
+    private const float X = -5f;
+    private const float Y = -25f;
+    private const float Y_DIFF = -75f;
 
     [SerializeField] private GameObject canvas = default;
 
@@ -178,7 +178,9 @@ public class Spaceship : MonoBehaviour
     private GameObject ActiveBonusBar(GameObject bar, Vector2 position)
     {
         GameObject go = Instantiate(bar, position, Quaternion.identity);
-        go.transform.SetParent(canvas.transform, false);
+        Transform bonusPanel = canvas.transform.Find("Panel_Bonus");
+
+        go.transform.SetParent(bonusPanel, false);
 
         return go;
     }
