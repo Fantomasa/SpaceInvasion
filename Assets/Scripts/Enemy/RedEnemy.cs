@@ -11,6 +11,7 @@ public class RedEnemy : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 
+    private bool isInDestroingEnemy = false;
 
     // Start is called before the first frame update
     void Start()
@@ -52,10 +53,16 @@ public class RedEnemy : MonoBehaviour
 
     private void DestroyRedEnemy()
     {
-        GameObject go = Instantiate(explodeObject, transform.position, Quaternion.identity);
-        Utils.InstBonusGo(this.transform, bonusObjects);
+        if (isInDestroingEnemy) return;
+
+        isInDestroingEnemy = true;
 
         Destroy(this.gameObject);
+
+
+        GameObject go = Instantiate(explodeObject, transform.position, Quaternion.identity);
+        Utils.InstBonusGo(this.transform, bonusObjects);
+        
         Destroy(go, destroyExplosionFireAfter);
     }
 }

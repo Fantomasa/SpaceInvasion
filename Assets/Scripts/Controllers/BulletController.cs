@@ -41,4 +41,9 @@ public class BulletController : MonoBehaviour
     {
         centerFirePoint.SetActive(true);
     }
+
+    public void StopCenterFirePoint()
+    {
+        centerFirePoint.SetActive(false);
+    }
 }

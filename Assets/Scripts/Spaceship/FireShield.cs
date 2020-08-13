@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FireShield : MonoBehaviour
 {
+    private Spaceship spashipScript;
+
     private float smooth = 5.0f;
 
     void Update()
@@ -24,7 +26,10 @@ public class FireShield : MonoBehaviour
     {
         if (GameController.currentShieldPoints <= 0)
         {
+            spashipScript = this.transform.parent.gameObject.GetComponent<Spaceship>();
+
             this.gameObject.SetActive(false);
+            spashipScript.fireShieldIsActive = false;
         }
     }
 }

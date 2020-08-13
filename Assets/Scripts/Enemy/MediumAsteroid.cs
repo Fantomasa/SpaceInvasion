@@ -17,6 +17,7 @@ public class MediumAsteroid : MonoBehaviour
     private Vector3 rotation;
 
     private AudioSource hitOudio;
+    private bool isInSpawningAsteroids = false;
 
     // Start is called before the first frame update
     void Start()
@@ -61,26 +62,29 @@ public class MediumAsteroid : MonoBehaviour
 
     private void CollisionWithBullet()
     {
-        hitOudio.Play();
-
         if (currentHealth >= 0)
         {
             currentHealth--;
+            hitOudio.Play();
         }
         else
         {
-            SpawnSmallWhiteAsteroid(smallAsteroidsSpawn);
             Destroy(this.gameObject);
+            SpawnSmallWhiteAsteroid(smallAsteroidsSpawn);            
         }
     }
 
     private void SpawnSmallWhiteAsteroid(int count)
     {
+        if (isInSpawningAsteroids) return;
+
+        isInSpawningAsteroids = true;
+
         for (int i = 0; i < count; i++)
         {
             float x = Random.Range(transform.position.x - xRandomRange, transform.position.x + xRandomRange);
 
-            Vector3 position = new Vector3(x, transform.position.y, transform.position.z);
+            Vector2 position = new Vector2(x, transform.position.y);
 
             SpawnSmallAsteroidPosition(position);
         }

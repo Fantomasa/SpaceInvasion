@@ -12,21 +12,34 @@ public class ManaBar : MonoBehaviour
     private Mana mana;
     private float barMaskWidth;
 
-    private void Awake()
+    public void Awake()
     {
         barMaskWidth = barMask.sizeDelta.x;
+    }
+
+    private void Start()
+    {
         mana = new Mana();
     }
 
     private void Update()
     {
         mana.Update();
-
         AnimateRawImage();
 
         UpdateMaskSize();
 
         SpendMana();
+
+        CheckDestroyBar();
+    }
+
+    private void CheckDestroyBar()
+    {
+        if (Mathf.Floor(mana.ManaAmount) <= 0f)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     private void AnimateRawImage()
@@ -49,6 +62,11 @@ public class ManaBar : MonoBehaviour
     {
         mana.SpendMana(0.2f);
     }
+
+    public void RestoreMana()
+    {
+        mana.RestoreMana();
+    }
 }
 
 public class Mana
@@ -64,6 +82,18 @@ public class Mana
         manaRegenAmount = 1f;
     }
 
+    public float ManaAmount
+    {
+        get { return this.manaAmount; }
+        set
+        {
+            if (value >= 0 && value <= MANA_MAX)
+            {
+                this.manaAmount = value;
+            }
+        }
+    }
+
     public void Update()
     {
 
@@ -73,7 +103,7 @@ public class Mana
 
     public void SpendMana(float amount)
     {
-        if(manaAmount >= amount)
+        if (manaAmount >= amount)
         {
             manaAmount -= amount;
         }
@@ -82,5 +112,10 @@ public class Mana
     public float GetManaNormalized()
     {
         return manaAmount / MANA_MAX;
+    }
+
+    public void RestoreMana()
+    {
+        manaAmount = MANA_MAX;
     }
 }

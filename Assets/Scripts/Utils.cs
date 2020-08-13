@@ -15,9 +15,8 @@ public class Utils : MonoBehaviour
 
     public static void InstBonusGo(Transform parentTransform, GameObject[] goToInstatiete)
     {
-        int chance = GetRandomNumberInclusive(0, 10);
-
-        if (chance != 1) return;
+        //int chance = GetRandomNumberInclusive(0, 10);
+        //if (chance != 1) return;
 
         int randomIdx = GetRandomNumberInclusive(0, goToInstatiete.Length - 1);
         Instantiate(goToInstatiete[randomIdx], parentTransform.position, Quaternion.identity);

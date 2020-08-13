@@ -3,9 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEditor;
+using System;
 
 public class Spaceship : MonoBehaviour
 {
+    private const string BONUS_FIRE_POINT = "BonusFirePointBar";
+    private const string BONUS_FIRE_BULLET = "BonusFireShootingtBar";
+
+    private const float X = -1205f;
+    private const float Y = -240f;
+    private const float Y_DIFF = -85f;
+
     [SerializeField] private GameObject canvas = default;
 
     [SerializeField] private GameObject bonusFirePointBar = default;
@@ -19,18 +28,81 @@ public class Spaceship : MonoBehaviour
     [SerializeField] private BulletsSpawner bulletsSpawner;
     [SerializeField] private BulletController bulletController = default;
 
-    private bool fireShieldIsActive;
+    public bool fireShieldIsActive;
     private AudioSource bonusAudio;
+
+    private GameObject onGoingBar = default;
+    private GameObject secondOnGoingBar = default;
+
+    private bool isCenterBulletRunning;
+    private bool isFireBulletRunning;
+
+    private float defaultTimeBetweenShooting;
+    private float fastTimeBetweenShooting = 0.1f;
 
     private void Start()
     {
+        isCenterBulletRunning = false;
+        isFireBulletRunning = false;
 
-        SetBonusBar(bonusFirePointBar, new Vector2(-1205f, -240f));
-        SetBonusBar(bonusFirePointBar, new Vector2(-1205f, -320f));
+        defaultTimeBetweenShooting = bulletController.TimeBetweenShooting;
+
         fireShield.SetActive(false);
         fireShieldIsActive = false;
 
         bonusAudio = GetComponent<AudioSource>();
+    }
+
+    private void Update()
+    {
+        CheckBarsAreRunning();
+        CheckReturnToDefault();
+    }
+
+    private void CheckBarsAreRunning()
+    {
+        isFireBulletRunning = false;
+        isCenterBulletRunning = false;
+
+        if (onGoingBar == null && secondOnGoingBar == null)
+        {
+            return;
+        }
+
+        if (onGoingBar != null)
+        {
+            if (onGoingBar.name.StartsWith(BONUS_FIRE_BULLET))
+            {
+                isFireBulletRunning = true;
+            }
+            else if (onGoingBar.name.StartsWith(BONUS_FIRE_POINT))
+            {
+                isCenterBulletRunning = true;
+            }
+        }
+
+        if (secondOnGoingBar != null)
+        {
+            if (secondOnGoingBar.name.StartsWith(BONUS_FIRE_POINT))
+            {
+                isCenterBulletRunning = true;
+            }
+            else if (secondOnGoingBar.name.StartsWith(BONUS_FIRE_BULLET))
+            {
+                isFireBulletRunning = true;
+            }
+        }
+    }
+
+    private void SetSpaceshipDefaultBullet()
+    {
+        bulletController.ChangeBullet(0);
+        bulletController.TimeBetweenShooting = defaultTimeBetweenShooting;
+    }
+
+    private void SetSpashipDefaultFirePoints()
+    {
+        bulletController.StopCenterFirePoint();
     }
 
     public void ChangeShieldState()
@@ -53,21 +125,62 @@ public class Spaceship : MonoBehaviour
             if (collision.gameObject.name.StartsWith("BonusFirePoint"))
             {
                 bulletController.ActiveCenterFirePoint();
+
+                SetBonusBar(bonusFirePointBar);
             }
             else if (collision.gameObject.name.StartsWith("BonusFireShooting"))
             {
                 bulletController.ChangeBullet(1);
-                bulletController.TimeBetweenShooting = 0.1f;
+                bulletController.TimeBetweenShooting = fastTimeBetweenShooting;
+
+                SetBonusBar(bonusFireShootingBar);
             }
 
             bonusAudio.Play();
         }
     }
 
-    private void SetBonusBar(GameObject bar, Vector2 position)
+    private void CheckReturnToDefault()
+    {
+        if (!isFireBulletRunning)
+        {
+            SetSpaceshipDefaultBullet();
+        }
+
+        if (!isCenterBulletRunning)
+        {
+            SetSpashipDefaultFirePoints();
+        }
+    }
+
+    private void SetBonusBar(GameObject bar)
+    {
+        if (onGoingBar == null)
+        {
+            onGoingBar = ActiveBonusBar(bar, new Vector2(X, Y));
+        }
+        else if (onGoingBar.name.StartsWith(bar.name))
+        {
+            ManaBar manaBarScript = onGoingBar.GetComponent<ManaBar>();
+            manaBarScript.RestoreMana();
+        }
+        else if (secondOnGoingBar == null)
+        {
+            secondOnGoingBar = ActiveBonusBar(bar, new Vector2(X, Y + Y_DIFF));
+        }
+        else if (secondOnGoingBar.name.StartsWith(bar.name))
+        {
+            ManaBar manaBarScript = secondOnGoingBar.GetComponent<ManaBar>();
+            manaBarScript.RestoreMana();
+        }
+    }
+
+    private GameObject ActiveBonusBar(GameObject bar, Vector2 position)
     {
         GameObject go = Instantiate(bar, position, Quaternion.identity);
         go.transform.SetParent(canvas.transform, false);
+
+        return go;
     }
 
     private void DestroySpaceShip()

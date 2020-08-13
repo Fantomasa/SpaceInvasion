@@ -8,6 +8,8 @@ public class BlueEnemy : MonoBehaviour
     [SerializeField] private GameObject explodeObject = default;
     [SerializeField] private float destroyExplosionFireAfter = 2f;
 
+    private bool isInCollision = false;
+
     private void Start()
     {
         //min = transform.position.x;
@@ -28,8 +30,13 @@ public class BlueEnemy : MonoBehaviour
     {
         if (Utils.CollisionWithBullet(collision) || Utils.CollisionWithSpaceship(collision) || Utils.CollisionWithShield(collision))
         {
-            DestroyBlueEnemy();
-        }   
+            if (!isInCollision)
+            {
+                isInCollision = true;
+                DestroyBlueEnemy();
+            }
+
+        }
     }
 
     private void DestroyBlueEnemy()

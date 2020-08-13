@@ -6,7 +6,7 @@ public class SmallAsteroid : MonoBehaviour
 {
     [SerializeField] private GameObject[] bonusObjects = default;
     [SerializeField] private GameObject smallAsteroidPartigleSystem = default;
-    [SerializeField] private float destroyParticlesAfter = 2f;
+    [SerializeField] private float destroyParticlesAfter = 1f;
 
     [SerializeField] private float maxHealth = 3f;
     private float currentHealth;
@@ -82,10 +82,11 @@ public class SmallAsteroid : MonoBehaviour
 
     private void DestroySmallAsteroid()
     {
+        Destroy(this.gameObject);
+
         GameObject go = Instantiate(smallAsteroidPartigleSystem, transform.position, Quaternion.identity);
         Utils.InstBonusGo(this.transform, bonusObjects);
-
-        Destroy(this.gameObject);
+                
         Destroy(go, destroyParticlesAfter);
     }
 }

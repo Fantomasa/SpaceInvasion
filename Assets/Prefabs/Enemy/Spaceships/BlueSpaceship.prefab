@@ -202,6 +202,7 @@ MonoBehaviour:
   - {fileID: 1065648831847296352, guid: bed6fb59eb8ba084a8f28ee26ec72638, type: 3}
   - {fileID: 1276769292544520959, guid: 5ef4cddcea0100149b242385ee3a2c5d, type: 3}
   - {fileID: 4393210435311378344, guid: aa01410a8ab7d1b458c8fc53b95f6548, type: 3}
+  - {fileID: 1053985563849495368, guid: ef55df1f3625e49498d34caf20e36ce6, type: 3}
   explodeObject: {fileID: 5482754694115852265, guid: 257e62ae62eafcf4aabe9db7fd40d17e,
     type: 3}
   destroyExplosionFireAfter: 2
