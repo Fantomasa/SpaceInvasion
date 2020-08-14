@@ -27,6 +27,7 @@ public class Spaceship : MonoBehaviour
     [SerializeField] private Button shieldButton;
     [SerializeField] private BulletsSpawner bulletsSpawner;
     [SerializeField] private BulletController bulletController = default;
+    [SerializeField] private SkullBar skullBar = default;
 
     public bool fireShieldIsActive;
     private AudioSource bonusAudio;
@@ -134,6 +135,10 @@ public class Spaceship : MonoBehaviour
                 bulletController.TimeBetweenShooting = fastTimeBetweenShooting;
 
                 SetBonusBar(bonusFireShootingBar);
+            }
+            else if (collision.gameObject.name.StartsWith("BonusFireShooting"))
+            {
+                skullBar.AddBarMaskWidth(); //Must be in GameController must impliment logic there.. not here..
             }
 
             bonusAudio.Play();

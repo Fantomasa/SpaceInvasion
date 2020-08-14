@@ -78,7 +78,7 @@ PrefabInstance:
     - target: {fileID: 4656019700305378085, guid: 8eba2b965c3836346b9041d5b66ea42b,
         type: 3}
       propertyPath: m_Name
-      value: BonusBar
+      value: BonusBar Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4656019700305378086, guid: 8eba2b965c3836346b9041d5b66ea42b,
         type: 3}
@@ -138,7 +138,7 @@ PrefabInstance:
     - target: {fileID: 4656019700305378086, guid: 8eba2b965c3836346b9041d5b66ea42b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 219.28
+      value: 379.42123
       objectReference: {fileID: 0}
     - target: {fileID: 4656019700305378086, guid: 8eba2b965c3836346b9041d5b66ea42b,
         type: 3}
@@ -178,7 +178,7 @@ PrefabInstance:
     - target: {fileID: 4656019700305378086, guid: 8eba2b965c3836346b9041d5b66ea42b,
         type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4656019700305378086, guid: 8eba2b965c3836346b9041d5b66ea42b,
         type: 3}
