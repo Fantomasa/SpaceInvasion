@@ -16,7 +16,7 @@ public class SkullBar : MonoBehaviour
 
     public void Awake()
     {
-        barMaskWidth = barMask.sizeDelta.x / change;
+        barMaskWidth = barMask.sizeDelta.x;
     }
 
     private void Start()
@@ -32,7 +32,6 @@ public class SkullBar : MonoBehaviour
         UpdateMaskSize();
 
         AddMana();
-
     }
 
     public void AddBarMaskWidth()
@@ -58,10 +57,10 @@ public class SkullBar : MonoBehaviour
     private void UpdateMaskSize()
     {
         Vector2 barMaskSizeDelta = barMask.sizeDelta;
-        barMaskSizeDelta.x = skullMana.GetManaNormalized() * barMaskWidth;
+        barMaskSizeDelta.x = skullMana.GetManaNormalized() * (barMaskWidth / change);
         barMask.sizeDelta = barMaskSizeDelta;
 
-        glowImg.anchoredPosition = new Vector2(-skullMana.GetManaNormalized() * barMaskWidth, 0);
+        glowImg.anchoredPosition = new Vector2(-skullMana.GetManaNormalized() * (barMaskWidth / change), 0);
     }
 
     public void AddMana()

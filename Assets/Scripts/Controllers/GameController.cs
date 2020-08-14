@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+    [SerializeField] private static SkullBar skullBar = default;
+
     [SerializeField] private static int healthPoints = 5;
     [SerializeField] private static int shieldPoints = 5;
-    
+
+    public static int skullBombCount = 0;
 
     private static int currentHealth = 0;
     public static int currentShieldPoints = 0;
@@ -71,5 +74,10 @@ public class GameController : MonoBehaviour
     {
         string currentLevelName = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(currentLevelName);
+    }
+
+    public static void addBombCount()
+    {
+        skullBombCount++;
     }
 }

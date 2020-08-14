@@ -15,7 +15,8 @@ public class Spaceship : MonoBehaviour
     private const float Y = -25f;
     private const float Y_DIFF = -75f;
 
-    [SerializeField] private GameObject canvas = default;
+    [SerializeField] private Transform bonusPanel = default;
+    [SerializeField] private SkullBar skullBar = default;
 
     [SerializeField] private GameObject bonusFirePointBar = default;
     [SerializeField] private GameObject bonusFireShootingBar = default;
@@ -27,7 +28,6 @@ public class Spaceship : MonoBehaviour
     [SerializeField] private Button shieldButton;
     [SerializeField] private BulletsSpawner bulletsSpawner;
     [SerializeField] private BulletController bulletController = default;
-    [SerializeField] private SkullBar skullBar = default;
 
     public bool fireShieldIsActive;
     private AudioSource bonusAudio;
@@ -136,9 +136,10 @@ public class Spaceship : MonoBehaviour
 
                 SetBonusBar(bonusFireShootingBar);
             }
-            else if (collision.gameObject.name.StartsWith("BonusFireShooting"))
+            else if (collision.gameObject.name.StartsWith("Bonus_Skull"))
             {
-                skullBar.AddBarMaskWidth(); //Must be in GameController must impliment logic there.. not here..
+                GameController.addBombCount();
+                skullBar.AddBarMaskWidth();
             }
 
             bonusAudio.Play();
@@ -183,7 +184,6 @@ public class Spaceship : MonoBehaviour
     private GameObject ActiveBonusBar(GameObject bar, Vector2 position)
     {
         GameObject go = Instantiate(bar, position, Quaternion.identity);
-        Transform bonusPanel = canvas.transform.Find("Panel_Bonus");
 
         go.transform.SetParent(bonusPanel, false);
 
